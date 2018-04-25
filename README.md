@@ -1,4 +1,6 @@
-### IDIOT SHELL
+## IDIOT SHELL
+
+### OLD WAY
 Compile and set the binary as shell in 
 
 `/etc/shells`
@@ -19,8 +21,11 @@ and run this container by executing:
 
 `docker run -d -p <your_ssh_port>:22 idiotshell`
 
-### Disclaimer
+### Disclaimer(s)
 Ponysay package used in this project can be found here: http://www.vcheng.org/ponysay/ 
+
+##### Known problems
+'roll.sh' doesn't work anymore, so we had to temporarily use something else instead.
 
 ======
 ### LICENCE
